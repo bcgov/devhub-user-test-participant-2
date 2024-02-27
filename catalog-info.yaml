@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: caileys-artifactory-documentation
+  title: Cailey's Artifactory Documentation
+  description: Some docs written by me about Artifactory
+  annotations:
+    github.com/project-slug: bcgov/devhub-user-test-participant-2
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/program_area: Infrastructure
+    bcgovpubcode.gov.bc.ca/product_name: Artifactory
+    bcgovpubcode.gov.bc.ca/product_owner: Luke Gonis
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/platform-services-team
